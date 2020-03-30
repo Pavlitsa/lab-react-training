@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Random = props => {
   let random = Math.random() * (props.max - props.min) + props.min;;

@@ -1,8 +1,4 @@
-import React, { Component } from "react";
-
-const style = {
-    
-}
+import React from "react";
 
 const BoxColor = props => {
   console.log(props);

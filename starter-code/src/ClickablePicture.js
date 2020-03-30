@@ -30,7 +30,7 @@ class ClickablePicture extends Component {
   // first thing we always do is set up a render function
   render() {
     // console.log("render function", this.state);
-    return <img onClick={this.handleClick} src={this.state.myImage} alt="image" />;
+    return <img onClick={this.handleClick} src={this.state.myImage} alt="" />;
   }
 }
 
